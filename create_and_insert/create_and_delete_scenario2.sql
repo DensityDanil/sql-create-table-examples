@@ -10,8 +10,7 @@ CREATE TABLE users (
 CREATE TABLE user_profile (
     id int PRIMARY KEY,
     name varchar(255),
-    second_name varchar(255),
-    FOREIGN KEY (id) REFERENCES users(user_id)
+    second_name varchar(255)
 );
 
 INSERT INTO users (user_id) VALUES (1), (2);
@@ -19,9 +18,7 @@ INSERT INTO users (user_id) VALUES (1), (2);
 INSERT INTO user_profile (id, name, second_name) 
 VALUES 
   (1, 'Noel', 'Gallagher')
-, (2, 'Robert', 'Plant');
-
-DELETE FROM user_profile where id = 2;
+, (3, 'Thom', 'Yorke');
 
 select * 
 from users;
