@@ -1,4 +1,4 @@
--- create_and_delete_scenario1 - FK наявний - не можемо створити запис
+-- create_and_insert_scenario1 - FK наявний - не можемо створити запис
 -- тут ми не можемо вставити новий запис з ід=3 у таблиці user_profile, 
 -- бо його немає в таблиці users
 -- і у таблиці user_profile задано 
