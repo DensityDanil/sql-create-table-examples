@@ -26,19 +26,21 @@ from users;
 select * 
 from user_profile;
 
--- Output
+-- Output:
+
 -- CREATE TABLE
 -- CREATE TABLE
 -- INSERT 0 2
 -- INSERT 0 2
--- DELETE 1
---  user_id 
+-- user_id 
 -- ---------
---        1
---        2
+--       1
+--       2
 -- (2 rows)
 
---  id | name | second_name 
+-- id | name | second_name 
 -- ----+------+-------------
 --   1 | Noel | Gallagher
--- (1 row)
+--   3 | Thom | Yorke
+-- (2 rows)
+
